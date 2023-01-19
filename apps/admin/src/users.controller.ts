@@ -1,0 +1,33 @@
+// import { Body, Controller, Delete, Get, Param, Patch, Post } from "@nestjs/common/decorators";
+// import { User } from "../../../libs/common/src/model";
+// import { UserService } from "../../../libs/common/src/services/user.service";
+
+// @Controller("users")
+// export class UsersController {
+//   constructor(private readonly usersService: UserService) {}
+
+//   @Post()
+//   create(@Body() createUserDto: User) {
+//     return this.usersService.create(createUserDto);
+//   }
+
+//   @Get()
+//   findAll() {
+//     return this.usersService.findAll();
+//   }
+
+//   @Get(":id")
+//   findOne(@Param("id") id: string) {
+//     return this.usersService.findOne(+id);
+//   }
+
+//   @Patch(":id")
+//   update(@Param("id") id: string, @Body() updateUserDto: User) {
+//     return this.usersService.update(+id, updateUserDto);
+//   }
+
+//   @Delete(":id")
+//   remove(@Param("id") id: string) {
+//     return this.usersService.remove(+id);
+//   }
+// }

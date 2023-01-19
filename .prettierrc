@@ -1,0 +1,7 @@
+{
+  "trailingComma": "es5",
+  "printWidth": 200,
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "requirePragma": true
+}
